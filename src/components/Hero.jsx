@@ -11,7 +11,7 @@ const Hero = () => {
           <p className='uppercase md:text-3xl sm:text-2xl text-xl font-bold py-4'>Lightning fast delivery from tree to </p>
           <ReactTyped className='uppercase md:text-3xl sm:text-2xl text-xl font-bold pl-2 py-4 text-rose-600' strings={['table', 'market', 'shelf']} typeSpeed={120} backspeed={140} loop />
         </div>
-        <button className='uppercase bg-gradient-to-r from-rose-600 to-yellow-300  w-[200px] rounded h-[50px] mx-auto py-3 font-bold' href='/shop'>View Our Shop</button>
+        <button className='uppercase bg-gradient-to-r from-rose-600 to-yellow-300  border-solid border-black border-[1px] shadow-xl w-[200px] rounded h-[50px] mx-auto py-3 font-bold' href='/shop'>View Our Shop</button>
       </div>
     </div>
   )
